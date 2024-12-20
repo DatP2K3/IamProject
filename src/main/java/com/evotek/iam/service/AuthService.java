@@ -49,10 +49,9 @@ public class AuthService {
 
 //    @Value("${jwt.private-key}")
 //    private String PRIVATE_KEY;
-//
+
 //    @Value("${jwt.public-key}")
 //    private String PUBLIC_KEY;
-
     @Value("${jwt.valid-duration}")
     private long VALID_DURATION;
 
